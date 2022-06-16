@@ -5,7 +5,7 @@ def conversor(tipo_pesos, valor_dolar):
     peso = input("¿Cuantos pesos " +  tipo_pesos + " tienes?")
     #se convierte la variable peso a decimal
     peso = float(peso)
-    #Operacion matematica de convercion 
+    #Operacion de conversion
     dolares = peso /valor_dolar
     #se define la variable dolare para que devuelva solamente dos valores decimales despues del .
     dolares = round(dolares, 2)
