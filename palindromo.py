@@ -1,8 +1,8 @@
 #Funcion encargada de:
 #1. Reemplazar los espacios de nuestra entrada a una cadena vacia
 #2. Crear la variable palabra_invertida, la cual hara un recorrido inverso de nuestra palabra
-#3. Su logica se encargara de retornar el valor de palabra invertida. Dependiendo
-#Si es verdadero o falso
+#3. Su logica se encargara de retornar el valor de palabra invertida. Dependiendo de
+#Si la palabra es igual a la palabra invertida es verdad, sino es falso
 def palindromo(palabra):
     palabra = palabra.replace(" ","")
     palabra = palabra.lower()
