@@ -1,5 +1,6 @@
+#Importo la libreria random
 import random
-
+#Defino la funcion
 def run():
     numero_aleatorio = random.randint(1 , 100)
     numero_elejido = int(input("elige un numero entre el 1 al 100: "))
@@ -11,6 +12,6 @@ def run():
         numero_elejido = int(input("Elige otro numero: "))
     print ("Ganaste")
 
-
+#Buenas Practicas
 if __name__ == "__main__":
     run()
