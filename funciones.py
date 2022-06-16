@@ -43,7 +43,7 @@ def suma(a, b):
     resultado = a + b
     #Palabra clave encargada de retornar el valor de la variable resultado
     return resultado
-#se crea una nueva variable que guradara el valor de suma de dos valores
+#se crea una nueva variable que guardara el valor de suma de dos valores
 sumatoria = suma(4, 5)
 #imprime en pantalla el valor de sumatoria
 print(sumatoria)
