@@ -1,5 +1,4 @@
-#Datos primitivos
-#Se recive una entrada con input
+#Se recibe una entrada con input
 dolar = input("¿Cuantos dolares Tienes?")
 #Se convierte la entrada a un tipo de dato decimal
 dolar = float(dolar)
