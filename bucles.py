@@ -13,8 +13,8 @@ def run():
     while potencia_2 < LIMITE:
         print("2 elevado a: "+ str(contador)+ " es igual a: " + str(potencia_2))
         #Para que no se cree un bucle infinito, Se define que contador se ira sumando un 1 hasta llegar a 1000
-        #Se define que la variable potencia_2 sera igual a 2 elevado al valor en el cual se encuentre el 
-        #el contador
+        #Se define que la variable potencia_2 sera igual a 2 elevado al valor en el cual se encuentre en el contador 
+        
         contador = contador + 1
         potencia_2 = 2**contador
 
