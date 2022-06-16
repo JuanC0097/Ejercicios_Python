@@ -5,8 +5,8 @@
 # del ciclo "continue"
 # SI NO NOS SALTAMOS LA VUELTA DEL CICLO PREGUNTAMOS 
 #SI el numero divido por i (en este caso divido por dos, yaque nos saltamos la 1 vuelta del ciclo)
-# es igual a cero el contador aumentara a +1 ,exponiendo que el numero no es primo
-#  si el CONTADOR "maneja el resto de la divicion", es igual a 0 retornara True, SINO retornara false
+#es igual a cero el contador aumentara a +1 ,exponiendo que el numero no es primo
+#Si el CONTADOR "maneja el resto de la divicion", es igual a 0 retornara True, SINO retornara false
 def es_primo(numero):
     contador = 0
 
