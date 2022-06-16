@@ -1,7 +1,7 @@
 def run():
     #########################################################################################
     #Se utiliza continue para informar a python que si en dado caso la condicion
-    #si la variable al dividirla por dos es distinto a 0, saltara la vuelta del ciclo.
+    #Si la variable al dividirla por dos es distinto a 0, saltara la vuelta del ciclo.
     #for contador in range(1000):
     #    if contador % 2 != 0:
     #        continue
